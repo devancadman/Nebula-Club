@@ -1,0 +1,217 @@
+body {
+	background: #c1e0ff;
+	margin: 1% 15%;
+	font-family: sans-serif;
+}	
+
+header {
+	
+	/*Text colour for header*/
+    color:white;
+	
+	/*Centering the text*/
+    text-align:center;
+	
+	/*Adding some spacing*/
+    padding:5px;
+	
+	/*Changes Text Size*/
+	font-size:20px
+}
+
+h1 {
+	text-align: center;
+	text-transform: none;
+	border-bottom: 3px solid #405459;
+	margin-top: 30px;
+}
+			
+h2 {
+	color: #4da6ff;
+	font-size: 1.3em;
+	text-decoration:underline;
+	font-weight: bold;
+}
+
+p {
+  color:black;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+
+.location {
+	border: 5px dashed navy;
+	padding: .5%;
+	text-align: center;
+	background: white;
+	color: navy;
+}
+
+.blue {
+	/*Text color of headings inside of sections*/
+	color: #30ACEC;
+}
+
+nav {
+	/*General positioning stuff. Don't worry about this*/
+    background-color:#CCCCFF;
+	height: 60px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+nav ul li {
+	float: left;
+	display: inline;
+}
+
+nav a:link, .mainheader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	padding: 20px 35px;
+	height: 20px;
+}
+
+nav a:hover, nav:active, 
+nav .active a:link, nav .active a:visited {
+		background-color:#FFFFFF;
+		text-shadow: none;
+}
+
+nav ul li a {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+a {
+	/*Removes the underline and color from links*/
+	text-decoration:none;
+	color: #404040;
+	font-weight: bold;
+}
+
+nav a:hover {
+	/*Changes the colour when links are hovered over with the mouse*/
+	color: #9900CC;
+}
+
+ol{
+	/*Removes the bullet points from lists*/
+	list-style: none;
+	padding-left: 15px;
+	
+	/*Changes Text Size*/
+	font-size:20px;
+}
+
+section {
+	/*Text color for everything inside of a section*/
+	color: #404040;
+  text-align:center;
+}
+
+p {
+	color: #0000305;
+	font-size: 120%; /* Base font size is 14px */
+	font-family: Ariel Sans Serif, 'Sans Serif Unicode';
+	line-height: 1.5;
+}
+
+li {
+		/*Removes the bullet points from lists*/
+	list-style: none;
+	padding-left: 15px;
+	
+	/*Changes Text Size*/
+	font-size:20px;
+}
+/* ===========================
+   ====== Contact Form ======= 
+   =========================== */
+
+input, textarea {
+	padding: 10px;
+	border: 1px solid #E5E5E5;
+	width: 200px;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;		
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+	max-width: 400px;
+	line-height: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
+}
+
+.form label {
+	margin-left: 10px;
+	color: #999999;
+}
+
+/* ===========================
+   ====== Submit Button ====== 
+   =========================== */
+
+.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color: #474E69; 
+	color: #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;		
+}
+
+footer {
+    color:white;
+	
+	/*Positioning stuff*/
+    clear:both;
+    text-align:center;
+    padding:10px; 
+}
+
+.blue {
+	/*This gives "Javascript Fundamentals" and
+	"Introduction to Web Development" a different colour within the paragraph tag*/
+	text-decoration:underline;
+	color: #30ACEC;
+}
+.purple {
+	text-decoration:underline;
+	color: #660066;
+}
+.red{
+	text-decoration:underline;
+	color: #FF0000;
+}
+.bold {
+	/*Makes text bold*/
+	font-weight: bold;
+}
+h4 {
+	text-decoration:underline;
+	font-weight: bold;
+}
